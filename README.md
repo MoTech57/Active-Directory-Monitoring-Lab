@@ -23,12 +23,12 @@ This lab demonstrates how to enhance anonymity and security while performing net
 <h2>Workflow:</h2>
 
 <p align="center">
-Lab network created with spare router + Raspberry Pi 4 Password: test123!: <br/>
-<img src="https://i.imgur.com/iKyEhx8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+A Diagram layout for the lab so we can create a Playbook: <br/>
+<img src="https://i.imgur.com/t0cOZeZ.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Monitordn.sh create to enable monitor mode:  <br/>
-<img src="https://i.imgur.com/pry0CVu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Three diffrenet servers need to be created two for Windows one for Ubuntu:  <br/>
+<img src="https://i.imgur.com/hp3sKqy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Monitorup.sh create to enable managed mode: <br/>
