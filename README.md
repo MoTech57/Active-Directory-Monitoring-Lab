@@ -28,7 +28,7 @@ A Diagram layout for the lab so we can create a Playbook: <br/>
 <br />
 <br />
 Three diffrenet servers need to be created two for Windows one for Ubuntu:  <br/>
-<img src="https://i.imgur.com/hp3sKqy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/dticZUK" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Monitorup.sh create to enable managed mode: <br/>
