@@ -1,26 +1,26 @@
-<h1>Wi-Fi Security Lab: WPA2 Cracking</h1>
+<h1>Staying Anonymous with ProxyChains</h1>
 
 
 <h2>Description</h2>
-This project demonstrates a controlled Wi-Fi security lab where I captured and cracked a WPA2 password using Linux, Kali VM, and Raspberry Pi. The process involved packet capture, WPA2 handshake analysis, and a dictionary-based attack with aircrack-ng, successfully revealing the test password “test123!”. The lab highlights how WPA2 remains vulnerable to weak passwords and reinforces the importance of strong passphrases and migration to WPA3.
+This lab demonstrates how to enhance anonymity and security while performing network reconnaissance by leveraging ProxyChains with a SOCKS5 Tor proxy. The setup routes all traffic through the Tor network, ensuring that scans and connections are obfuscated from the target system. Using tools like Nmap in combination with ProxyChains highlights how penetration testers and ethical hackers can conduct stealthier assessments while maintaining privacy. The project covers configuration of ProxyChains, integration with Tor, and practical use cases such as anonymized port scanning and service enumeration.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Bash/Shell scripting</b> 
-- <b>Linux networking utilities</b>
-- <b>Wireshark</b> 
-- <b>SSH</b>
+- <b>ProxyChains</b> 
+- <b>Tor (SOCKS5 proxy)</b>
+- <b>Nmap</b> 
+- <b>Netcat</b>
+- <b>Linux networking utilities (ping, curl, etc.)</b>
 
 <h2>Environments Used </h2>
 
 - <b>Fedora Linux</b> 
-- <b>Kali Linux (VM)</b> 
-- <b>Raspberry Pi (Raspberry Pi OS)</b> 
-- <b>Lab Router</b> 
+- <b>Tor Network</b> 
+- <b>Virtualized Lab Environment (VMware/VirtualBox)</b> 
 
-<h2>Attack Workflow:</h2>
+<h2>Workflow:</h2>
 
 <p align="center">
 Lab network created with spare router + Raspberry Pi 4 Password: test123!: <br/>
