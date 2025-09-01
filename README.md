@@ -29,13 +29,13 @@ A Diagram layout for the lab so we can create a Playbook: <br/>
 <img src="https://i.imgur.com/t0cOZeZ.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Three diffrenet servers need to be created two for Windows one for Ubuntu:  <br/>
+Three different servers need to be created: two for Windows, one for Ubuntu:  <br/>
 <img src="https://i.imgur.com/NtiKzxm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />Test Machine Will use Windows and 55GB: <br/>
 <img src="https://i.imgur.com/ZZDNoGm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<br />Active Directory Will use Windows 80GB:  <br/>
+<br />Active Directory will use Windows 80GB:  <br/>
 <img src="https://i.imgur.com/eewx2iC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -54,19 +54,22 @@ Three diffrenet servers need to be created two for Windows one for Ubuntu:  <br/
 <br />
 <br />
 <br/>Use RDP or SSH to access Machines:  <br/>
-<img src="https://i.imgur.com/oO1qXt8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/oO1qXt8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bc14zKk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br/>
+ <br/>
+<img src="https://i.imgur.com/UVIlZBA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br />
 <br />
-<br/>Edit Firewall Rules:  <br/>
-<https://i.imgur.com/xEYVGXc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>Verify IP in terminal with ip a or ipconfig <br/>
+<img src="https://i.imgur.com/O4kUfQB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gAefKCd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ycDLNpH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-
-
-
-
-
+<br/>Install and configure Active Directory, promote to Domain Controller <br/>
+<img src="https://i.imgur.com/gfhrgWh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OWBlaxS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9Ee5cVJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 </p>
 
