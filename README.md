@@ -1,15 +1,15 @@
-<h1>Staying Anonymous with ProxyChains</h1>
+<h1>Active Directory monitoring lab</h1>
 
 
 <h2>Description</h2>
-This lab demonstrates how to enhance anonymity and security while performing network reconnaissance by leveraging ProxyChains with a SOCKS5 Tor proxy. The setup routes all traffic through the Tor network, ensuring that scans and connections are obfuscated from the target system. Using tools like Nmap in combination with ProxyChains highlights how penetration testers and ethical hackers can conduct stealthier assessments while maintaining privacy. The project covers configuration of ProxyChains, integration with Tor, and practical use cases such as anonymized port scanning and service enumeration.
+This project demonstrates an Active Directory security monitoring lab hosted on Vultr virtual machines. A Windows Server domain controller and a test Windows machine were configured under the domain MyDFIR.local, with telemetry forwarded to a Splunk server running on Ubuntu. Using Remote Desktop and SSH, I managed the lab and generated authentication events for analysis. Splunk ingested the logs and triggered alerts on unauthorized logins, which then activated an automated playbook in Shuffle. The playbook sent notifications to a SOC analyst through Slack and email, giving them the option to disable the compromised domain account. This lab showcased how Active Directory, Splunk, and SOAR automation can work together to detect and respond to account compromises in a realistic enterprise setting..
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>ProxyChains</b> 
-- <b>Tor (SOCKS5 proxy)</b>
+- <b>PowerShell</b> 
+- <b>Splunk</b>
 - <b>Nmap</b>
 - <b>SSH (remote access)</b>
 - <b>Remote Desktop Client</b>
