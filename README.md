@@ -10,7 +10,9 @@ This lab demonstrates how to enhance anonymity and security while performing net
 
 - <b>ProxyChains</b> 
 - <b>Tor (SOCKS5 proxy)</b>
-- <b>Nmap</b> 
+- <b>Nmap</b>
+- <b>SSH (remote access)</b>
+- <b>Remote Desktop Client</b>
 - <b>Netcat</b>
 - <b>Linux networking utilities (ping, curl, etc.)</b>
 
@@ -28,27 +30,44 @@ A Diagram layout for the lab so we can create a Playbook: <br/>
 <br />
 <br />
 Three diffrenet servers need to be created two for Windows one for Ubuntu:  <br/>
-<img src="https://imgur.com/dticZUK" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NtiKzxm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />Test Machine Will use Windows and 55GB: <br/>
+<img src="https://i.imgur.com/ZZDNoGm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />Active Directory Will use Windows 80GB:  <br/>
+<img src="https://i.imgur.com/eewx2iC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Monitorup.sh create to enable managed mode: <br/>
-<img src="https://i.imgur.com/4adI6dW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />Splunk Will use Ubuntu 80GB:  <br/>
+<img src="https://i.imgur.com/eewx2iC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Discover nearby Wi-Fi networks using airodump-ng:  <br/>
-<img src="https://i.imgur.com/kcFgVPw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>Create Firewall Group and give name:  <br/>
+<img src="https://i.imgur.com/oO1qXt8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Deauthentication to Forces client reconnection Confirm handshake in Wireshark:  <br/>
-<img src="https://i.imgur.com/YNtAQoF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>Edit Firewall Rules:  <br/>
+<https://i.imgur.com/xEYVGXc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />Splunk Will use Ubuntu 80GB:  <br/>
+<img src="https://i.imgur.com/eewx2iC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Locate file and send to VM with ssh:  <br/>
-<img src="https://i.imgur.com/PprrkzP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>Use RDP or SSH to access Machines:  <br/>
+<img src="https://i.imgur.com/oO1qXt8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/oO1qXt8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <br />
 <br />
-Use aircrack-ng with dictionary wordlist successfully cracked - “test123!”:  <br/>
-<img src="https://i.imgur.com/6pENfVx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>Edit Firewall Rules:  <br/>
+<https://i.imgur.com/xEYVGXc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+
+
+
+
 </p>
 
 <!--
