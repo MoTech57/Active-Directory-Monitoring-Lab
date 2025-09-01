@@ -26,50 +26,50 @@ This lab demonstrates how to enhance anonymity and security while performing net
 
 <p align="center">
 A Diagram layout for the lab so we can create a Playbook: <br/>
-<img src="https://i.imgur.com/t0cOZeZ.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/t0cOZeZ.jpeg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Three different servers need to be created: two for Windows, one for Ubuntu:  <br/>
-<img src="https://i.imgur.com/NtiKzxm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NtiKzxm.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <br />
 <br />Test Machine Will use Windows and 55GB: <br/>
-<img src="https://i.imgur.com/ZZDNoGm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZZDNoGm.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <br />
 <br />Active Directory will use Windows 80GB:  <br/>
-<img src="https://i.imgur.com/eewx2iC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eewx2iC.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />Splunk Will use Ubuntu 80GB:  <br/>
-<img src="https://i.imgur.com/eewx2iC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eewx2iC.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br/>Create Firewall Group and give name:  <br/>
-<img src="https://i.imgur.com/oO1qXt8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/oO1qXt8.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br/>Edit Firewall Rules:  <br/>
-<https://i.imgur.com/xEYVGXc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<https://i.imgur.com/xEYVGXc.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <br />Splunk Will use Ubuntu 80GB:  <br/>
-<img src="https://i.imgur.com/eewx2iC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eewx2iC.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br/>Use RDP or SSH to access Machines:  <br/>
-<img src="https://i.imgur.com/bc14zKk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bc14zKk.png" height="70%" width="70%%" alt="Disk Sanitization Steps"/>
  <br/>
  <br/>
-<img src="https://i.imgur.com/UVIlZBA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UVIlZBA.png" height="70%" width="70%%" alt="Disk Sanitization Steps"/>
 
 <br />
 <br />
 <br/>Verify IP in terminal with ip a or ipconfig <br/>
-<img src="https://i.imgur.com/O4kUfQB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/gAefKCd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/ycDLNpH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/O4kUfQB.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gAefKCd.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ycDLNpH.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <br/>Install and configure Active Directory, promote to Domain Controller <br/>
-<img src="https://i.imgur.com/gfhrgWh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/OWBlaxS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/9Ee5cVJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gfhrgWh.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OWBlaxS.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9Ee5cVJ.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 </p>
 
