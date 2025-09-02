@@ -26,7 +26,7 @@ This project demonstrates an Active Directory security monitoring lab hosted on 
 
 <p align="center">
 A Diagram layout for the lab so we can create a Playbook: <br/>
-<img src="https://i.imgur.com/t0cOZeZ.jpeg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/t0cOZeZ.jpeg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Three different servers need to be created: two for Windows, one for Ubuntu:  <br/>
